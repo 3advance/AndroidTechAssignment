@@ -1,0 +1,17 @@
+{
+  "code": 0,
+  "data": {
+    "listFields": [
+      "fistname",
+      "lastname",
+      "email",
+      "office_phone"
+    ],
+    "listFieldSettings": {
+      "colorField": ""
+    },
+    "viewMode": "1",
+    "count": "60"
+  },
+  "account_id": 222983
+}

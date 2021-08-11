@@ -1,0 +1,1154 @@
+{
+  "code": 0,
+  "data": {
+      "name": "Contact",
+      "fields": {
+        "f1932": {
+          "alias": "Optional Email",
+          "type": "email",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "f2046": {
+          "alias": "Sandips Color",
+          "type": "drop",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1,
+          "colors": {
+            "162": {
+              "color": "#fdd835",
+              "backgroundColor": "#fff7d7"
+            },
+            "161": {
+              "color": "#000000",
+              "backgroundColor": "#cccccc"
+            }
+          },
+          "options": {
+            "162": "Light",
+            "161": "Dark"
+          }
+        },
+        "id": {
+          "alias": "Contact ID",
+          "type": "numeric",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "unique_id": {
+          "alias": "Unique ID",
+          "type": "unique",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "company": {
+          "alias": "Company",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 150
+        },
+        "f1877": {
+          "alias": "Test Name",
+          "type": "text",
+          "required": 1,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "dlm": {
+          "alias": "Date Modified",
+          "type": "timestamp",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "ip_addy_display": {
+          "alias": "IP Address",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "timezone": {
+          "alias": "Timezone",
+          "type": "timezone",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "dla": {
+          "alias": "Last Activity",
+          "type": "timestamp",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "date_last_email_received": {
+          "alias": "Last Email Received",
+          "type": "timestamp",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 0
+        },
+        "f1874": {
+          "alias": "Erik Related Data",
+          "type": "related_data",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 1,
+          "viewable": 1,
+          "extra_data": "company//name"
+        },
+        "f1876": {
+          "alias": "Pizza Toppings",
+          "type": "list",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1,
+          "options": {
+            "136": "Pineapple",
+            "135": "Cheese",
+            "134": "Anchovies"
+          }
+        },
+        "f1878": {
+          "alias": "Required Text",
+          "type": "text",
+          "required": 1,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "date_last_email_sent": {
+          "alias": "Last Email Sent",
+          "type": "timestamp",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 0
+        },
+        "date_last_sms_received": {
+          "alias": "Last SMS Received",
+          "type": "timestamp",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 0
+        },
+        "date_last_sms_sent": {
+          "alias": "Last SMS Sent",
+          "type": "timestamp",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 0
+        },
+        "date_last_call_logged": {
+          "alias": "Last Call Logged",
+          "type": "timestamp",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 0
+        },
+        "twitter_link": {
+          "alias": "Twitter",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "facebook_link": {
+          "alias": "Facebook",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "instagram_link": {
+          "alias": "Instagram",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "linkedin_link": {
+          "alias": "Linkedin",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "freferrer": {
+          "alias": "First Referrer",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 36
+        },
+        "address": {
+          "alias": "Address",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "state": {
+          "alias": "State",
+          "type": "state",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "office_phone": {
+          "alias": "Office Phone",
+          "type": "phone",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "profile_image": {
+          "alias": "Profile Image",
+          "type": "image",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 0
+        },
+        "last_note": {
+          "alias": "Last Note",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 0
+        },
+        "n_lead_source": {
+          "alias": "First Lead Source",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 76
+        },
+        "n_medium": {
+          "alias": "First Medium",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 77
+        },
+        "n_content": {
+          "alias": "First Content",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 78
+        },
+        "f1809": {
+          "alias": "Gabor's Check Field",
+          "type": "check",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "fax": {
+          "alias": "Fax",
+          "type": "phone",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "bulk_mail": {
+          "alias": "Bulk Email Status",
+          "type": "check",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "bulk_sms": {
+          "alias": "Bulk SMS Status",
+          "type": "check",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "grade": {
+          "alias": "Score",
+          "type": "numeric",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "f1866": {
+          "alias": "Owner Email",
+          "type": "related_data",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 1,
+          "viewable": 1,
+          "extra_data": "owner//email"
+        },
+        "f1872": {
+          "alias": "Erik Money",
+          "type": "price",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "f1870": {
+          "alias": "Home Address",
+          "type": "address",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "f1869": {
+          "alias": "Address 3",
+          "type": "address",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "f1863": {
+          "alias": "Long Texter",
+          "type": "longtext",
+          "required": 1,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "f1864": {
+          "alias": "Timestamp",
+          "type": "timestamp",
+          "required": 1,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "f1867": {
+          "alias": "Eriks Cool Text Field",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "f2069": {
+          "alias": "Required 1250",
+          "type": "text",
+          "required": 1,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "f2068": {
+          "alias": "Required 1239",
+          "type": "text",
+          "required": 1,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "108013f1671": {
+          "alias": "Current Challenge",
+          "type": "drop",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1,
+          "options": {
+            "75": "EMPLOYEE ISSUES: I'm having trouble managing my staff.",
+            "76": "DISORGANIZATION: I'm struggling to keep track of information and tasks.",
+            "77": "TECHNOLOGY OVERWHELM: I have too many incompatible software tools.",
+            "78": "INCONSISTENT SERVICE: Customers are receiving the wrong communications.",
+            "79": "LEAD GENERATION: My business is not getting enough new leads.",
+            "80": "SALES CONVERSIONS: My business is not getting enough new customers.",
+            "81": "CUSTOMER RETENTION: My business is not keeping customers around long enough.",
+            "82": "TRAFFIC FLOW: Too few prospects visit my website or blog.",
+            "83": "GETTING ONLINE: I'm just getting started with a website and marketing.",
+            "84": "MESSAGING: I'm still looking for the right message and market.",
+            "85": "FIGURING OUT MARKETING: I don't know where to start with my marketing strategy.",
+            "86": "LAUNCHING: I'm not sure how to launch my new business.",
+            "87": "FUNNEL DESIGN & PLANNING: I'm not sure how to nurture my leads with funnels.",
+            "88": "OTHER - None of the above"
+          }
+        },
+        "mrcAmount": {
+          "alias": "Last Charge Amount",
+          "type": "price",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "ccType": {
+          "alias": "Last Card Type",
+          "type": "drop",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1,
+          "options": {
+            "0": "",
+            "1": "Visa",
+            "2": "Mastercard",
+            "3": "American Express",
+            "4": "Discover",
+            "5": "Paypal",
+            "6": "Other"
+          }
+        },
+        "ccNumber": {
+          "alias": "Last Card Number (Last 4)",
+          "type": "numeric",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "ccExpirationMonth": {
+          "alias": "Last Card Expiration Month",
+          "type": "drop",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1,
+          "options": {
+            "1": "January",
+            "2": "February",
+            "3": "March",
+            "4": "April",
+            "5": "May",
+            "6": "June",
+            "7": "July",
+            "8": "August",
+            "9": "September",
+            "10": "October",
+            "11": "November",
+            "12": "December"
+          }
+        },
+        "mrcResult": {
+          "alias": "Last CC Status",
+          "type": "drop",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1,
+          "options": {
+            "0": "Success",
+            "1": "Declined",
+            "2": ""
+          }
+        },
+        "ccExpirationYear": {
+          "alias": "Last Card Expiration Year",
+          "type": "numeric",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "address2": {
+          "alias": "Address 2",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "fn": {
+          "alias": "Name",
+          "type": "mergefield",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1,
+          "extra_data": "<op:merge field='firstname'>X</op:merge> <op:merge field='lastname'>X</op:merge>"
+        },
+        "firstname": {
+          "alias": "First Name",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "lastname": {
+          "alias": "Last Name",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "email": {
+          "alias": "Email",
+          "type": "email",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "title": {
+          "alias": "Title",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "city": {
+          "alias": "City",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "zip": {
+          "alias": "Zip Code",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "country": {
+          "alias": "Country",
+          "type": "country",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "f1865": {
+          "alias": "Urgency",
+          "type": "drop",
+          "required": 1,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1,
+          "colors": {
+            "133": {
+              "color": "#b71c1c",
+              "backgroundColor": "#f1d2d2"
+            },
+            "132": {
+              "color": "#42a5f5",
+              "backgroundColor": "#d9edfd"
+            },
+            "131": {
+              "color": "#000000",
+              "backgroundColor": "#cccccc"
+            }
+          },
+          "options": {
+            "133": "Red",
+            "132": "Blue",
+            "131": "Black"
+          }
+        },
+        "f1875": {
+          "alias": "Eriks Long Text",
+          "type": "longtext",
+          "required": 1,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "f1895": {
+          "alias": "New Field",
+          "type": "check",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "f1980": {
+          "alias": "PAVLOS DATE & TIMES",
+          "type": "timestamp",
+          "required": 1,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "f2067": {
+          "alias": "Erik 1225 Required",
+          "type": "text",
+          "required": 1,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "f2011": {
+          "alias": "Rich Text Field",
+          "type": "rich_text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1
+        },
+        "status": {
+          "alias": "Sales Stage",
+          "type": "drop",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1,
+          "options": {
+            "7": "New Prospect",
+            "6": "Qualified Lead",
+            "5": "Demo Scheduled",
+            "4": "Consideration",
+            "3": "Committed",
+            "2": "Closed - Won",
+            "1": "Closed - Lost"
+          }
+        },
+        "priority": {
+          "alias": "Priority",
+          "type": "drop",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1,
+          "colors": {
+            "10": {
+              "color": "#7cb342",
+              "backgroundColor": "#e5f0d9"
+            },
+            "9": {
+              "color": "#ffa003",
+              "backgroundColor": "#ffeccd"
+            },
+            "8": {
+              "color": "#ef5350",
+              "backgroundColor": "#fcdddc"
+            }
+          },
+          "options": {
+            "10": "Low",
+            "9": "Medium",
+            "8": "High"
+          }
+        },
+        "time_since_dla": {
+          "alias": "Time Since Last Activity",
+          "type": "drop",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "colors": {
+            "63": {
+              "color": "#b71c1c",
+              "backgroundColor": "#f1d2d2"
+            },
+            "62": {
+              "color": "#e65100",
+              "backgroundColor": "#fadccc"
+            },
+            "61": {
+              "color": "#ffa000",
+              "backgroundColor": "#ffeccc"
+            },
+            "60": {
+              "color": "#1e88e5",
+              "backgroundColor": "#d2e7fa"
+            }
+          },
+          "options": {
+            "63": "Today (Hot!)",
+            "62": "This Week",
+            "61": "This month",
+            "60": "More than a month ago (Cold)"
+          }
+        },
+        "n_campaign": {
+          "alias": "First Campaign",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 75
+        },
+        "n_term": {
+          "alias": "First Term",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 79
+        },
+        "f1935": {
+          "alias": "Eriks Color",
+          "type": "drop",
+          "required": 1,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1,
+          "colors": {
+            "151": {
+              "color": "#fdd835",
+              "backgroundColor": "#fff7d7"
+            },
+            "150": {
+              "color": "#1b5e20",
+              "backgroundColor": "#d1dfd2"
+            },
+            "149": {
+              "color": "#b71c1c",
+              "backgroundColor": "#f1d2d2"
+            }
+          },
+          "options": {
+            "151": "Erik yellow",
+            "150": "Erik Green",
+            "149": "Erik Red"
+          }
+        },
+        "f1978": {
+          "alias": "NEWEST COLOR",
+          "type": "drop",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1,
+          "colors": {
+            "154": {
+              "color": "#004d40",
+              "backgroundColor": "#ccdbd9"
+            },
+            "153": {
+              "color": "#fdd835",
+              "backgroundColor": "#fff7d7"
+            },
+            "152": {
+              "color": "#b71c1c",
+              "backgroundColor": "#f1d2d2"
+            }
+          },
+          "options": {
+            "154": "GREEN",
+            "153": "YELLOW",
+            "152": "RED"
+          }
+        },
+        "sms_number": {
+          "alias": "SMS Number",
+          "type": "sms",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "birthday": {
+          "alias": "Birthday",
+          "type": "fulldate",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "website": {
+          "alias": "Website",
+          "type": "url",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "owner": {
+          "alias": "Owner",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 2
+        },
+        "l_campaign": {
+          "alias": "Last Campaign",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 75
+        },
+        "l_lead_source": {
+          "alias": "Last Lead Source",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 76
+        },
+        "l_medium": {
+          "alias": "Last Medium",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 77
+        },
+        "l_content": {
+          "alias": "Last Content",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 78
+        },
+        "l_term": {
+          "alias": "Last Term",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 79
+        },
+        "aff_paypal": {
+          "alias": "Paypal Address",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "lreferrer": {
+          "alias": "Last Referrer",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 36
+        },
+        "aff_sales": {
+          "alias": "Number of Sales",
+          "type": "numeric",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "program_id": {
+          "alias": "Partner Program",
+          "type": "parent",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "parent_object": 35
+        },
+        "aff_amount": {
+          "alias": "Total Sales",
+          "type": "price",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "referral_page": {
+          "alias": "Referring Page",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "gcid": {
+          "alias": "GA Client ID",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "gclid": {
+          "alias": "GCLID",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "fbc": {
+          "alias": "Facebook fbc",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "fbp": {
+          "alias": "Facebook fbp",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "updateCampaign": {
+          "alias": "Campaigns",
+          "type": "subscription",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "extra_data": "{\"subModel\":140,\"form\":\"object_editor\",\"allowCreate\":1, \"saveDraft\": false, \"object_type_id\": \"0\",\"criteria\":{\"condition\":\"[{\\\"field\\\":{\\\"field\\\":\\\"pause\\\"},\\\"op\\\":\\\"<>\\\",\\\"value\\\":{\\\"value\\\":2}}]\"}}"
+        },
+        "contact_cat": {
+          "alias": "Contact Tags",
+          "type": "subscription",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "extra_data": "{\"subModel\":14,\"form\":\"object_editor\",\"IOMode\":2,\"object_type_id\":\"0\", \"createDefaults\":{\"group_id\":\"15\"},\"allowCreate\":\"1\"}"
+        },
+        "updateSequence": {
+          "alias": "Sequences",
+          "type": "subscription",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 0,
+          "viewable": 1,
+          "extra_data": "{\"subModel\":5,\"form\":\"object_editor\",\"allowCreate\":1, \"object_type_id\": \"0\"}"
+        },
+        "last_inbound_sms": {
+          "alias": "Last Inbound SMS",
+          "type": "text",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "181547f1672": {
+          "alias": "Drip Membership Access Level",
+          "type": "list",
+          "required": 0,
+          "unique": 0,
+          "editable": 1,
+          "deletable": 1,
+          "viewable": 1,
+          "options": {
+            "89": "Week 1 Access",
+            "90": "Week 2 Access",
+            "91": "Week 3 Access"
+          }
+        },
+        "mriInvoiceNum": {
+          "alias": "Last Invoice #",
+          "type": "numeric",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "mrcUnpaid": {
+          "alias": "Total Amount of Unpaid Transactions",
+          "type": "price",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "mriInvoiceTotal": {
+          "alias": "Last Total Invoice Amount",
+          "type": "price",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "ccExpirationDate": {
+          "alias": "Last Card Expiration Date",
+          "type": "fulldate",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "date": {
+          "alias": "Date Added",
+          "type": "timestamp",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        },
+        "spent": {
+          "alias": "Spent",
+          "type": "price",
+          "required": 0,
+          "unique": 0,
+          "editable": 0,
+          "deletable": 0,
+          "viewable": 1
+        }
+      },
+      "label": "<op:merge field='firstname'>First Name</op:merge> <op:merge field='lastname'>Last Name</op:merge> (<op:merge field='email'>Email</op:merge>)",
+      "id": 0,
+      "alias": "Contact",
+      "singular": "Contact",
+      "plural": "Contacts",
+      "possessive": "Contact's",
+      "plural_possessive": "Contacts'",
+      "icon": "hand-palm",
+      "theme": "ussr-theme-emerald",
+      "key": "id",
+      "external_key": "contact_id"
+    },
+  "account_id": 222983
+}
