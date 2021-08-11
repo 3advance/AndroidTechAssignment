@@ -17,6 +17,8 @@ You will be required to use the `fields` param defined in the `CollectionMetaApi
 
 Use this meta data, to generate a list of Fields for each Object returned in the `SampleApi.getCollectionObjects()` call.
 
+> Please note that this assessment does not connect directly to an API and the API is being simulated with a JSON response stored locally within the application. However you should write your code on the assumption that this is a live API.
+
 ### What we are reviewing in your assignment:
 
 1. How you make use of threading to chain these calls
