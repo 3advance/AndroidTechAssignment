@@ -1,5 +1,7 @@
 ## Android Tech Assignment
 
+> This project was setup on Android Studio Arctic Fox v2020.3.1 and uses Gradle Build Tools v7.0.0 and Kotlin v1.5.21
+
 A client has a requirement to display a list of objects on a mobile application. The objects are unique per user and will have a different set of data set.
 
 The API provides 3 separate endpoints that gives the following information:
