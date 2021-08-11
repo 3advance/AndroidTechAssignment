@@ -21,13 +21,15 @@ Use this meta data, to generate a list of Fields for each Object returned in the
 2. How you choose to model your data
 3. How you consider performance when mapping these data sets
 
-You will not be expected to render this data on the UI, but instead to print a log statement of the objects list fields, with a dash line divider between each object, in the following way:
+You will not be expected to render this data on the UI however you are expected to build out a UI model in the presentation layer. You should however, print a log statement of the objects list fields, with a dash line divider between each object, in the following way:
 
-----
+```
 {{field alias}}: {{field value}}
 {{field alias}}: {{field value}}
 .....
-----
+==================
+```
+
 
 ### Instructions
 1. Clone the repository and make it private
